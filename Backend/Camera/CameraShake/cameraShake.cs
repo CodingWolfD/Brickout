@@ -20,7 +20,7 @@ public class cameraShake : MonoBehaviour
         Vector3 orignalPosition = transform.position; // creates a new Vector3 called "originalPosition" and initialises it to the cameras starting position
         float elapsed = 0f; // creates a new float called "elapsed" and initialises it to 0
 
-        while (elapsed < duration) // this while loop will run while "elapsed" is less than "duration:
+        while (elapsed < duration) // this while loop will run while "elapsed" is less than "duration":
         {
             float x = Random.Range(-1f, 1f) * magnitude; // creates a new float called "x" and initialises it to a random number between -1 and 1 multiplied by the magnitude passed as a parameter 
             float y = Random.Range(-1f, 1f) * magnitude; // creates a new float called "y" and initialises it to a random number between -1 and 1 multiplied by the magnitude passed as a parameter 
